@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2">
+
+
+   <ImageView
+       android:id="@+id/hat1"
+       android:layout_width="121dp"
+       android:layout_height="281dp"
+       android:layout_above="@+id/kick"
+       android:layout_alignParentStart="true"
+       android:onClick="hat1"
+       app:srcCompat="@drawable/hatt" />
+
+   <ImageView
+       android:id="@+id/snare1"
+       android:layout_width="176dp"
+       android:layout_height="114dp"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentStart="true"
+       android:layout_marginBottom="195dp"
+       android:layout_marginStart="19dp"
+       app:srcCompat="@drawable/snr"
+       android:layout_alignParentLeft="true"
+       android:onClick="snare1"
+       android:layout_marginLeft="19dp" />
+
+   <ImageView
+       android:id="@+id/snare2"
+       android:layout_width="162dp"
+       android:layout_height="113dp"
+       android:layout_alignTop="@+id/snare1"
+       android:layout_marginTop="5dp"
+       android:layout_toEndOf="@+id/snare1"
+       android:onClick="snare2"
+       app:srcCompat="@drawable/snrr" />
+
+   <ImageView
+       android:id="@+id/kick"
+       android:layout_width="204dp"
+       android:layout_height="163dp"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="51dp"
+       android:onClick="kick"
+       app:srcCompat="@drawable/kick" />
+
+   <ImageView
+       android:id="@+id/hat2"
+       android:layout_width="106dp"
+       android:layout_height="281dp"
+       android:layout_above="@+id/kick"
+       android:layout_alignParentEnd="true"
+       android:onClick="hat2"
+
+       app:srcCompat="@drawable/hatt" />
+</RelativeLayout>
